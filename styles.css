@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+
+    
+    background-size: 100%;
+    background-color: rgb(148, 216, 205);
+    background-image:
+    url("BG_image.jpg");
+    background-blend-mode: multiply;
+}
+
+.white {
+  color: white;
+}
+
+.center{
+  position: absolute;
+  top:40%;
+  left: 40%;
+  transform: translate(-40% , -40%)
+}
+
+.header {
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    padding-left: 15px;
+    background: #000000;
+    color: white;
+    font-size: 11px;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 8px;
+ }
+
+ #app {
+  padding: 15px;
+  align-items: center;
+ }
+
+ .block {
+  margin: 20px;
+  border: #000000;
+  border-width: 5px;
+ }
+
+.title {
+  font-weight: bold;
+}
+
+ .buscadorHeader {
+  text-align: left;
+ }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#rooms {
+  margin-top: 15px;
+}
+
+.tarjeta {
+  height: 100%;
+  width: 70%;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+.tarjeta_image{
+  height: 65%;
+}
+.tarjeta_informacion {
+  padding: 12px;
+}
